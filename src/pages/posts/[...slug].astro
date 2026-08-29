@@ -16,6 +16,7 @@ const { Content } = await render(post);
 const { title, description, pubDate, tags, repo, githubUrl, stars, language } = post.data;
 ---
 <BaseLayout title={title} description={description}>
+  <p class="back-home"><a href="/">← 返回首页</a></p>
   <article class="post-card">
     <header class="post-header">
       <p class="post-eyebrow">⚡ GitHub Trending 评测</p>
@@ -41,6 +42,17 @@ const { title, description, pubDate, tags, repo, githubUrl, stars, language } = 
 </BaseLayout>
 
 <style>
+  .back-home {
+    margin-bottom: 16px;
+  }
+  .back-home a {
+    color: var(--color-text-muted);
+    font-size: 14px;
+    transition: color var(--transition);
+  }
+  .back-home a:hover {
+    color: var(--color-accent);
+  }
   .post-card {
     background: var(--color-card-bg);
     border: 1px solid var(--color-border);
