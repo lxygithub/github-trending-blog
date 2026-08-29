@@ -8,7 +8,7 @@ interface Props {
 const { post } = Astro.props;
 const { title, description, pubDate, tags, repo } = post.data;
 ---
-<article class="post-card">
+<article class="post-card" data-reveal>
   <h2 class="post-title">
     <a href={`/posts/${post.slug}/`}>{title}</a>
   </h2>
@@ -28,7 +28,14 @@ const { title, description, pubDate, tags, repo } = post.data;
     background: var(--card);
     transition: border-color 0.2s;
   }
-  .post-card:hover { border-color: var(--accent); }
+  .post-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+  .post-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px var(--shadow);
+  }
   .post-title { margin: 0 0 8px; font-size: 20px; }
   .post-title a { color: var(--text); text-decoration: none; }
   .post-repo { margin: 0 0 8px; font-size: 13px; color: var(--accent); }
