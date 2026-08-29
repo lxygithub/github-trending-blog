@@ -9,8 +9,9 @@ const posts = (await getCollection('posts')).sort(
 ---
 <BaseLayout title="首页">
   <section class="hero">
+    <p class="hero-badge">🔥 每日更新</p>
     <h1>GitHub Trending 开源项目评测</h1>
-    <p>每天挑选 GitHub 热门项目，实际体验、深度评测、帮你判断是否值得使用。</p>
+    <p class="hero-sub">每天挑选 GitHub 热门项目，实际体验、深度评测，帮你判断是否值得使用。</p>
   </section>
 
   <section class="post-list">
@@ -23,9 +24,24 @@ const posts = (await getCollection('posts')).sort(
 </BaseLayout>
 
 <style>
-  .hero { padding: 40px 0 20px; }
+  .hero {
+    padding: 48px 0 28px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(168, 85, 247, 0.06));
+    border: 1px solid var(--border);
+  }
+  .hero-badge {
+    display: inline-block;
+    margin: 0 0 12px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 13px;
+    color: var(--accent);
+    background: rgba(37, 99, 235, 0.1);
+  }
   .hero h1 { font-size: 32px; margin: 0 0 12px; }
-  .hero p { color: var(--muted); margin: 0; }
+  .hero-sub { color: var(--muted); margin: 0; }
   .post-list { display: flex; flex-direction: column; gap: 16px; margin-top: 24px; }
   .empty { color: var(--muted); }
 </style>
