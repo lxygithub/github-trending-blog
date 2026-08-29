@@ -88,8 +88,10 @@ img { max-width: 100%; display: block; }
 }
 
 main.container {
+  position: relative;
+  z-index: 1;
   flex: 1;
-  padding-top: 120px;
+  padding-top: 100px;
   padding-bottom: 60px;
 }
 
