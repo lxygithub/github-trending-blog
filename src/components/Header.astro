@@ -1,69 +1,135 @@
-<header class="site-header">
-  <div class="container header-inner">
-    <a href="/" class="logo">⚡ GitHub Trending 评测</a>
-    <nav class="nav">
-      <a href="/">首页</a>
-      <a href="/about">关于</a>
-      <a href="/privacy">隐私政策</a>
-      <a href="/rss.xml">RSS</a>
-      <button id="theme-toggle" type="button" aria-label="切换主题">🌙</button>
-    </nav>
-  </div>
+<header id="navbar">
+  <nav class="nav-container">
+    <a href="/" class="nav-brand">
+      <span class="nav-logo">⚡</span>
+      <span class="nav-title">GitHub Trending 评测</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/">首页</a></li>
+      <li><a href="/about">关于</a></li>
+      <li><a href="/privacy">隐私</a></li>
+      <li><a href="/rss.xml">RSS</a></li>
+      <li><button id="theme-toggle" type="button" aria-label="切换主题">🌙</button></li>
+    </ul>
+  </nav>
 </header>
 
 <style>
-  .site-header {
-    border-bottom: 1px solid var(--border);
-    background: var(--bg);
-    position: sticky;
+  #navbar {
+    position: fixed;
     top: 0;
-    z-index: 10;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 14px 0;
+    transition: background var(--transition), backdrop-filter var(--transition), box-shadow var(--transition);
   }
-  .header-inner {
+
+  #navbar.scrolled {
+    background: rgba(10, 22, 40, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .nav-container {
+    width: 100%;
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 56px;
   }
-  .logo {
-    font-weight: 700;
-    color: var(--text);
-    text-decoration: none;
-  }
-  .nav {
+
+  .nav-brand {
     display: flex;
-    gap: 16px;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-white);
   }
-  .nav a {
-    color: var(--muted);
-    text-decoration: none;
-    font-size: 14px;
+
+  .nav-logo {
+    font-size: 24px;
+    filter: drop-shadow(0 0 8px var(--color-accent-glow));
   }
-  .nav a:hover {
-    color: var(--text);
+
+  .nav-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    white-space: nowrap;
   }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .nav-links a {
+    color: var(--color-text);
+    font-size: 0.95rem;
+    position: relative;
+    transition: color var(--transition);
+  }
+
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--color-accent);
+    transition: width var(--transition);
+  }
+
+  .nav-links a:hover,
+  .nav-links a.active {
+    color: var(--color-white);
+  }
+
+  .nav-links a:hover::after,
+  .nav-links a.active::after {
+    width: 100%;
+  }
+
   #theme-toggle {
-    border: 1px solid var(--border);
-    background: var(--card);
-    color: var(--text);
+    border: 1px solid var(--color-border);
+    background: var(--color-card-bg);
+    color: var(--color-white);
     border-radius: 999px;
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 15px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    transition: border-color var(--transition), box-shadow var(--transition);
   }
+
   #theme-toggle:hover {
-    border-color: var(--accent);
+    border-color: var(--color-accent);
+    box-shadow: 0 0 12px var(--color-accent-glow);
   }
+
   @media (max-width: 600px) {
-    .header-inner { flex-direction: column; height: auto; padding: 10px 0; gap: 6px; }
+    .nav-title { font-size: 0.9rem; }
+    .nav-links { gap: 14px; }
+    .nav-links a { font-size: 0.85rem; }
   }
 </style>
 
 <script>
+  const navbar = document.getElementById('navbar');
+  function onScroll() {
+    if (!navbar) return;
+    navbar.classList.toggle('scrolled', window.scrollY > 20);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
   const themeBtn = document.getElementById('theme-toggle');
   const rootEl = document.documentElement;
   function updateThemeIcon() {
