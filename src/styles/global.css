@@ -53,10 +53,7 @@ body {
   color: var(--color-text);
   line-height: 1.7;
   overflow-x: hidden;
-  background:
-    radial-gradient(ellipse at 15% 20%, rgba(0, 180, 216, 0.12), transparent 50%),
-    radial-gradient(ellipse at 85% 10%, rgba(124, 58, 237, 0.12), transparent 50%),
-    var(--color-bg-dark);
+  background: url('/star-bg.jpg') center/cover no-repeat fixed;
 }
 
 /* 星空噪点 */
@@ -66,15 +63,12 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background-image:
-    radial-gradient(1px 1px at 20px 30px, rgba(255,255,255,0.6), transparent),
-    radial-gradient(1px 1px at 120px 80px, rgba(255,255,255,0.4), transparent),
-    radial-gradient(1.5px 1.5px at 240px 160px, rgba(0,180,216,0.5), transparent),
-    radial-gradient(1px 1px at 350px 60px, rgba(255,255,255,0.3), transparent),
-    radial-gradient(1px 1px at 500px 220px, rgba(255,255,255,0.4), transparent),
-    radial-gradient(1.5px 1.5px at 680px 120px, rgba(124,58,237,0.5), transparent);
-  background-size: 800px 800px;
-  opacity: 0.5;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 22, 40, 0.72) 0%,
+    rgba(10, 22, 40, 0.55) 50%,
+    rgba(10, 22, 40, 0.82) 100%
+  );
 }
 
 a {
