@@ -22,14 +22,17 @@
     right: 0;
     z-index: 1000;
     padding: 14px 0;
+    background: linear-gradient(180deg, rgba(10, 22, 40, 0.92), rgba(10, 22, 40, 0.72));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     transition: background var(--transition), backdrop-filter var(--transition), box-shadow var(--transition);
   }
 
   #navbar.scrolled {
-    background: rgba(10, 22, 40, 0.85);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(180deg, rgba(10, 22, 40, 0.98), rgba(10, 22, 40, 0.88));
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.35);
   }
 
   .nav-container {
@@ -122,26 +125,31 @@
 </style>
 
 <script>
-  const navbar = document.getElementById('navbar');
   function onScroll() {
+    const navbar = document.getElementById('navbar');
     if (!navbar) return;
-    navbar.classList.toggle('scrolled', window.scrollY > 20);
+    navbar.classList.toggle('scrolled', window.scrollY > 10);
   }
   window.addEventListener('scroll', onScroll, { passive: true });
+  document.addEventListener('astro:page-load', onScroll);
   onScroll();
 
-  const themeBtn = document.getElementById('theme-toggle');
-  const rootEl = document.documentElement;
-  function updateThemeIcon() {
-    if (!themeBtn) return;
-    const dark = rootEl.getAttribute('data-theme') === 'dark';
-    themeBtn.textContent = dark ? '☀️' : '🌙';
-  }
-  themeBtn?.addEventListener('click', () => {
-    const next = rootEl.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-    rootEl.setAttribute('data-theme', next);
-    try { localStorage.setItem('theme', next); } catch (e) {}
+  function initThemeToggle() {
+    const themeBtn = document.getElementById('theme-toggle');
+    const rootEl = document.documentElement;
+    function updateThemeIcon() {
+      if (!themeBtn) return;
+      const dark = rootEl.getAttribute('data-theme') === 'dark';
+      themeBtn.textContent = dark ? '☀️' : '🌙';
+    }
+    themeBtn?.addEventListener('click', () => {
+      const next = rootEl.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      rootEl.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      updateThemeIcon();
+    });
     updateThemeIcon();
-  });
-  updateThemeIcon();
+  }
+  document.addEventListener('astro:page-load', initThemeToggle);
+  initThemeToggle();
 </script>
