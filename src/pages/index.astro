@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+<BaseLayout title="首页">
+  <section class="hero">
+    <h1>GitHub Trending 开源项目评测</h1>
+    <p>每天挑选 GitHub 热门项目，实际体验、深度评测、帮你判断是否值得使用。</p>
+  </section>
+
+  <section class="post-list">
+    {posts.length === 0 ? (
+      <p class="empty">还没有文章，先运行 <code>npm run new:trending</code> 抓取 GitHub Trending 生成草稿。</p>
+    ) : (
+      posts.map((post) => <PostCard post={post} />)
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .hero { padding: 40px 0 20px; }
+  .hero h1 { font-size: 32px; margin: 0 0 12px; }
+  .hero p { color: var(--muted); margin: 0; }
+  .post-list { display: flex; flex-direction: column; gap: 16px; margin-top: 24px; }
+  .empty { color: var(--muted); }
+</style>

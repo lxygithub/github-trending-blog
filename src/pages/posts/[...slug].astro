@@ -1,0 +1,46 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const { title, description, pubDate, tags, repo, githubUrl, stars, language } = post.data;
+---
+<BaseLayout title={title} description={description}>
+  <article>
+    <header class="post-header">
+      <h1>{title}</h1>
+      <div class="meta">
+        <time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString('zh-CN')}</time>
+        {repo && <span>📦 {repo}</span>}
+        {stars ? <span>⭐ {stars.toLocaleString()}</span> : null}
+        {language && <span>🔤 {language}</span>}
+      </div>
+      {githubUrl && (
+        <p><a href={githubUrl} target="_blank" rel="noreferrer">GitHub 仓库地址 →</a></p>
+      )}
+      <div class="tags">
+        {tags.map((tag) => <span class="tag">#{tag}</span>)}
+      </div>
+    </header>
+    <div class="post-body">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .post-header { margin-bottom: 28px; }
+  .post-header h1 { font-size: 28px; margin: 0 0 12px; }
+  .meta { display: flex; flex-wrap: wrap; gap: 12px; color: var(--muted); font-size: 13px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .tag { background: var(--tag-bg); padding: 2px 10px; border-radius: 999px; font-size: 12px; color: var(--muted); }
+</style>
