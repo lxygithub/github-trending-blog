@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Giscus from '../../components/Giscus.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -34,6 +35,7 @@ const { title, description, pubDate, tags, repo, githubUrl, stars, language } = 
     <div class="post-body">
       <Content />
     </div>
+    <Giscus />
   </article>
 </BaseLayout>
 
