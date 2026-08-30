@@ -20,7 +20,7 @@ const switchLabel = locale === 'zh' ? 'English' : '中文';
 <header id="navbar">
   <nav class="nav-container">
     <a href={home} class="nav-brand">
-      <span class="nav-logo">⚡</span>
+      <img src="/logo.svg" class="nav-logo" alt="DevPulse" />
       <span class="nav-title">DevPulse</span>
     </a>
     <ul class="nav-links">
@@ -73,7 +73,8 @@ const switchLabel = locale === 'zh' ? 'English' : '中文';
   }
 
   .nav-logo {
-    font-size: 24px;
+    width: 28px;
+    height: 28px;
     filter: drop-shadow(0 0 8px var(--color-accent-glow));
   }
 
