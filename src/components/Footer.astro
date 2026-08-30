@@ -13,6 +13,7 @@ const copyright = locale === 'zh'
 const aboutLabel = locale === 'zh' ? '关于' : 'About';
 const privacyLabel = locale === 'zh' ? '隐私政策' : 'Privacy Policy';
 const visitsLabel = locale === 'zh' ? '访问量' : 'Visits';
+const contactLabel = locale === 'zh' ? '联系' : 'Contact';
 ---
 <footer class="site-footer">
   <div class="container footer-inner">
@@ -21,6 +22,7 @@ const visitsLabel = locale === 'zh' ? '访问量' : 'Visits';
       <a href={about}>{aboutLabel}</a>
       <a href={privacy}>{privacyLabel}</a>
       <a href={rss}>RSS</a>
+      <a href="mailto:mewlxy@foxmail.com">{contactLabel}</a>
     </div>
   </div>
 </footer>
