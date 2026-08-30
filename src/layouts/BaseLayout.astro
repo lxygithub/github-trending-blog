@@ -9,23 +9,29 @@ import ParticleCanvas from '../components/ParticleCanvas.astro';
 interface Props {
   title: string;
   description?: string;
+  locale?: 'en' | 'zh';
 }
 
-const { title, description = 'GitHub 热门开源项目评测博客' } = Astro.props;
+const { title, description, locale = 'en' } = Astro.props;
+const siteTitle = locale === 'zh' ? 'DevPulse' : 'DevPulse';
+const defaultDescription = locale === 'zh'
+  ? '面向开发者的每日英文科技新闻'
+  : 'Daily technology news for developers';
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const htmlLang = locale === 'zh' ? 'zh-CN' : 'en';
 ---
 <!doctype html>
-<html lang="zh-CN">
+<html lang={htmlLang} data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content={description} />
+    <meta name="description" content={description || defaultDescription} />
     <link rel="canonical" href={canonicalURL} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
+    <meta property="og:description" content={description || defaultDescription} />
     <meta property="og:type" content="website" />
-    <title>{title} | GitHub Trending 评测</title>
+    <title>{title} | DevPulse</title>
     <ViewTransitions />
     <script is:inline>
       (function () {
@@ -39,11 +45,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   </head>
   <body>
     <ParticleCanvas />
-    <Header />
+    <Header locale={locale} />
     <main class="container">
       <slot />
     </main>
-    <Footer />
+    <Footer locale={locale} />
     <AdSense />
     <script>
       function initReveal() {

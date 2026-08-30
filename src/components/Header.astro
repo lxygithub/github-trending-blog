@@ -1,15 +1,35 @@
+---
+interface Props {
+  locale?: 'en' | 'zh';
+}
+
+const { locale = 'en' } = Astro.props;
+const pathname = Astro.url.pathname;
+const switchHref = locale === 'zh'
+  ? (pathname === '/zh/' ? '/' : pathname.replace(/^\/zh/, '') || '/')
+  : (pathname === '/' ? '/zh/' : `/zh${pathname}`);
+const home = locale === 'zh' ? '/zh/' : '/';
+const about = locale === 'zh' ? '/zh/about' : '/about';
+const privacy = locale === 'zh' ? '/zh/privacy' : '/privacy';
+const rss = locale === 'zh' ? '/zh/rss.xml' : '/rss.xml';
+const navHome = locale === 'zh' ? '首页' : 'Home';
+const navAbout = locale === 'zh' ? '关于' : 'About';
+const navPrivacy = locale === 'zh' ? '隐私' : 'Privacy';
+const switchLabel = locale === 'zh' ? 'English' : '中文';
+---
 <header id="navbar">
   <nav class="nav-container">
-    <a href="/" class="nav-brand">
+    <a href={home} class="nav-brand">
       <span class="nav-logo">⚡</span>
-      <span class="nav-title">GitHub Trending 评测</span>
+      <span class="nav-title">DevPulse</span>
     </a>
     <ul class="nav-links">
-      <li><a href="/">首页</a></li>
-      <li><a href="/about">关于</a></li>
-      <li><a href="/privacy">隐私</a></li>
-      <li><a href="/rss.xml">RSS</a></li>
-      <li><button id="theme-toggle" type="button" aria-label="切换主题">🌙</button></li>
+      <li><a href={home}>{navHome}</a></li>
+      <li><a href={about}>{navAbout}</a></li>
+      <li><a href={privacy}>{navPrivacy}</a></li>
+      <li><a href={rss}>RSS</a></li>
+      <li><a class="lang-switch" href={switchHref}>{switchLabel}</a></li>
+      <li><button id="theme-toggle" type="button" aria-label="Toggle theme">🌙</button></li>
     </ul>
   </nav>
 </header>
@@ -66,7 +86,7 @@
   .nav-links {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 20px;
   }
 
   .nav-links a {
@@ -97,6 +117,17 @@
     width: 100%;
   }
 
+  .lang-switch {
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-size: 13px !important;
+  }
+
+  .lang-switch::after {
+    display: none;
+  }
+
   #theme-toggle {
     border: 1px solid var(--color-border);
     background: var(--color-card-bg);
@@ -117,10 +148,10 @@
     box-shadow: 0 0 12px var(--color-accent-glow);
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 640px) {
     .nav-title { font-size: 0.9rem; }
-    .nav-links { gap: 14px; }
-    .nav-links a { font-size: 0.85rem; }
+    .nav-links { gap: 12px; }
+    .nav-links a { font-size: 0.82rem; }
   }
 </style>
 

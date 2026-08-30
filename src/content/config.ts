@@ -10,6 +10,7 @@ export const collections = {
       updatedDate: z.coerce.date().optional(),
       heroImage: z.string().optional(),
       tags: z.array(z.string()).default([]),
+      locale: z.enum(['en', 'zh']).default('en'),
       repo: z.string().optional(),
       githubUrl: z.string().optional(),
       stars: z.number().optional(),

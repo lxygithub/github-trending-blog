@@ -3,17 +3,17 @@ import { getCollection } from 'astro:content';
 
 export async function GET(context: { site: string }) {
   const posts = (await getCollection('posts'))
-    .filter((post) => post.data.locale === 'en')
+    .filter((post) => post.data.locale === 'zh')
     .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
   return rss({
-    title: 'DevPulse',
-    description: 'Daily technology news for developers',
+    title: 'DevPulse 中文版',
+    description: '面向开发者的每日科技新闻',
     site: context.site,
     items: posts.map((post) => ({
       title: post.data.title,
       pubDate: post.data.pubDate,
       description: post.data.description,
-      link: `/posts/${post.slug.replace(/^en\//, '')}/`,
+      link: `/zh/posts/${post.slug.replace(/^zh\//, '')}/`,
     })),
   });
 }

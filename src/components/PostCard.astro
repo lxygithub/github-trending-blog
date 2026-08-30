@@ -6,16 +6,18 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { title, description, pubDate, tags, repo, stars, language } = post.data;
+const { title, description, pubDate, tags, repo, stars, language, locale } = post.data;
+const cleanSlug = post.slug.replace(/^(en|zh)\//, '');
+const href = locale === 'zh' ? `/zh/posts/${cleanSlug}/` : `/posts/${cleanSlug}/`;
 ---
 <article class="post-card" data-reveal>
-  <a class="post-card-link" href={`/posts/${post.slug}/`} aria-label={title}></a>
+  <a class="post-card-link" href={href} aria-label={title}></a>
   <div class="post-meta-top">
     {repo && <span class="repo">📦 {repo}</span>}
     <time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString('zh-CN')}</time>
   </div>
   <h2 class="post-title">
-    <a href={`/posts/${post.slug}/`}>{title}</a>
+    <a href={href}>{title}</a>
   </h2>
   <p class="post-desc">{description}</p>
   <div class="post-footer">

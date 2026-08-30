@@ -1,16 +1,33 @@
+---
+interface Props {
+  locale?: 'en' | 'zh';
+}
+
+const { locale = 'en' } = Astro.props;
+const about = locale === 'zh' ? '/zh/about' : '/about';
+const privacy = locale === 'zh' ? '/zh/privacy' : '/privacy';
+const rss = locale === 'zh' ? '/zh/rss.xml' : '/rss.xml';
+const copyright = locale === 'zh'
+  ? `© ${new Date().getFullYear()} DevPulse 保留所有权利`
+  : `© ${new Date().getFullYear()} DevPulse. All rights reserved.`;
+const aboutLabel = locale === 'zh' ? '关于' : 'About';
+const privacyLabel = locale === 'zh' ? '隐私政策' : 'Privacy Policy';
+---
 <footer class="site-footer">
   <div class="container footer-inner">
-    <p>© {new Date().getFullYear()} GitHub Trending 评测 · 用 ❤️ 和 Astro 构建</p>
+    <p>{copyright}</p>
     <div class="footer-links">
-      <a href="/about">关于</a>
-      <a href="/privacy">隐私政策</a>
-      <a href="/rss.xml">RSS</a>
+      <a href={about}>{aboutLabel}</a>
+      <a href={privacy}>{privacyLabel}</a>
+      <a href={rss}>RSS</a>
     </div>
   </div>
 </footer>
 
 <style>
   .site-footer {
+    position: relative;
+    z-index: 1;
     border-top: 1px solid var(--color-border);
     padding: 24px 0;
     margin-top: auto;

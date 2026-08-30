@@ -1,12 +1,12 @@
 ---
 import { getCollection, render } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import Giscus from '../../components/Giscus.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Giscus from '../../../components/Giscus.astro';
 
 export async function getStaticPaths() {
-  const posts = (await getCollection('posts')).filter((post) => post.data.locale === 'en');
+  const posts = (await getCollection('posts')).filter((post) => post.data.locale === 'zh');
   return posts.map((post) => ({
-    params: { slug: post.slug.replace(/^en\//, '') },
+    params: { slug: post.slug.replace(/^zh\//, '') },
     props: { post },
   }));
 }
@@ -15,20 +15,20 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 const { title, description, pubDate, tags, repo, githubUrl, stars, language } = post.data;
 ---
-<BaseLayout title={title} description={description} locale="en">
-  <p class="back-home"><a href="/">← Back to Home</a></p>
+<BaseLayout title={title} description={description} locale="zh">
+  <p class="back-home"><a href="/zh/">← 返回首页</a></p>
   <article class="post-card">
     <header class="post-header">
-      <p class="post-eyebrow">⚡ DevPulse News</p>
+      <p class="post-eyebrow">⚡ DevPulse 新闻</p>
       <h1>{title}</h1>
       <div class="meta">
-        <time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString('en-US')}</time>
+        <time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString('zh-CN')}</time>
         {repo && <span>📦 {repo}</span>}
         {stars ? <span>⭐ {stars.toLocaleString()}</span> : null}
         {language && <span>🔤 {language}</span>}
       </div>
       {githubUrl && (
-        <p><a class="github-link" href={githubUrl} target="_blank" rel="noreferrer">View on GitHub →</a></p>
+        <p><a class="github-link" href={githubUrl} target="_blank" rel="noreferrer">查看 GitHub 仓库 →</a></p>
       )}
       <div class="tags">
         {tags.map((tag) => <span class="tag">#{tag}</span>)}

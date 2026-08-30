@@ -1,22 +1,22 @@
 ---
 import { getCollection } from 'astro:content';
-import BaseLayout from '../layouts/BaseLayout.astro';
-import PostCard from '../components/PostCard.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
 
 const posts = (await getCollection('posts'))
-  .filter((post) => post.data.locale === 'en')
+  .filter((post) => post.data.locale === 'zh')
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
-<BaseLayout title="Home" locale="en">
+<BaseLayout title="首页" locale="zh">
   <section class="page-header" data-reveal>
-    <span class="header-badge">🔥 Daily Tech News</span>
+    <span class="header-badge">🔥 每日科技新闻</span>
     <h1>DevPulse</h1>
-    <p>Daily technology news for developers</p>
+    <p>面向开发者的每日科技新闻</p>
   </section>
 
   <section id="latest" class="latest">
     {posts.length === 0 ? (
-      <p class="empty" data-reveal>No articles yet. Check back soon.</p>
+      <p class="empty" data-reveal>暂时还没有文章，请稍后再来。</p>
     ) : (
       <div class="post-list">
         {posts.map((post) => <PostCard post={post} />)}
