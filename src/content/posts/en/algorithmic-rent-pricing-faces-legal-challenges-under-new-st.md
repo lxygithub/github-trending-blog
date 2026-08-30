@@ -1,10 +1,11 @@
 ---
 image: "/images/posts/algorithmic-rent-pricing-faces-legal-challenges-under-new-st.png"
 title: "Algorithmic Rent Pricing Faces Legal Challenges Under New State and Local Laws"
-date: 2026-08-30T05:30:22.410Z
+pubDate: 2026-08-30T05:30:22.410Z
 description: "New laws in multiple US states target algorithmic rent-setting tools, leading to expanded litigation. Developers must understand the implications for AI pricing models and software liability."
 tags: [algorithmic pricing, proptech, software liability, ai ethics, legal tech]
 slug: "algorithmic-rent-pricing-faces-legal-challenges-under-new-st"
+locale: "en"
 author: ""
 ---
 The use of automated systems for setting rental prices is moving from a controversial tech trend to a active legal battleground. New state and local legislation is fueling a significant expansion of litigation targeting landlords and property management software that use algorithms to determine rent prices.
