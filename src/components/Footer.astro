@@ -12,10 +12,11 @@ const copyright = locale === 'zh'
   : `© ${new Date().getFullYear()} DevPulse. All rights reserved.`;
 const aboutLabel = locale === 'zh' ? '关于' : 'About';
 const privacyLabel = locale === 'zh' ? '隐私政策' : 'Privacy Policy';
+const visitsLabel = locale === 'zh' ? '访问量' : 'Visits';
 ---
 <footer class="site-footer">
   <div class="container footer-inner">
-    <p>{copyright}</p>
+    <p>{copyright} · <span class="views">{visitsLabel}: <span id="site-views">…</span></span></p>
     <div class="footer-links">
       <a href={about}>{aboutLabel}</a>
       <a href={privacy}>{privacyLabel}</a>
@@ -23,6 +24,21 @@ const privacyLabel = locale === 'zh' ? '隐私政策' : 'Privacy Policy';
     </div>
   </div>
 </footer>
+
+<script>
+  function loadViews() {
+    const el = document.getElementById('site-views');
+    if (!el) return;
+    fetch('/api/views')
+      .then((r) => r.json())
+      .then((d) => {
+        if (d && d.views != null) el.textContent = Number(d.views).toLocaleString();
+      })
+      .catch(() => { el.textContent = '—'; });
+  }
+  document.addEventListener('astro:page-load', loadViews);
+  loadViews();
+</script>
 
 <style>
   .site-footer {
