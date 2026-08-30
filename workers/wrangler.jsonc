@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "devpulse-views",
+  "main": "views.js",
+  "compatibility_date": "2026-08-01",
+  "kv_namespaces": [
+    { "binding": "VIEWS_KV", "id": "e5dd5babfdb14272a1c08073e350cc23" }
+  ],
+  "routes": [
+    { "pattern": "oceo.top/api/views", "zone_name": "oceo.top" }
+  ]
+}
