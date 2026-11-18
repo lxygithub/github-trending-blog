@@ -5,7 +5,7 @@ description: "A developer is urgently seeking a contact within the Cuyahoga Amat
 tags: [ham radio, cleveland, equipment recovery, community help, hardware]
 slug: "developer-seeks-contact-for-cleveland-amateur-radio-club-to"
 author: ""
-image: "/images/posts/developer-seeks-contact-for-cleveland-amateur-radio-club-to.png"
+image: "/images/posts/developer-seeks-contact-for-cleveland-amateur-radio-club-to.webp"
 locale: "en"
 ---
 A developer has turned to the community for assistance after encountering a communication breakdown with a local radio club. The individual reached out to the Cuyahoga Amateur Radio Club (CARC) regarding a significant surplus of equipment, but their web form submission seems to have gone unnoticed.

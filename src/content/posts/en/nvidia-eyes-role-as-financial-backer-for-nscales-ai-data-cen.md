@@ -5,7 +5,7 @@ description: "Nvidia is reportedly considering taking on a financial role as a c
 tags: [nvidia, ai data centers, west virginia, tech finance, infrastructure]
 slug: "nvidia-eyes-role-as-financial-backer-for-nscales-ai-data-cen"
 author: ""
-image: "/images/posts/nvidia-eyes-role-as-financial-backer-for-nscales-ai-data-cen.png"
+image: "/images/posts/nvidia-eyes-role-as-financial-backer-for-nscales-ai-data-cen.webp"
 locale: "en"
 ---
 As the artificial intelligence market matures, a slight cooling of investor enthusiasm has begun to emerge, casting a shadow of caution over new infrastructure projects. In this environment of financial prudence, hardware giants are finding new ways to ensure their silicon continues to find a home. The latest development involves Nvidia, which is reportedly weighing the option to cosign a loan for Nscale’s proposed data center in West Virginia.

@@ -5,7 +5,7 @@ description: "Discover REA, the innovative platform designed to assist developer
 tags: [reverse engineering, devtools, software analysis, automation]
 slug: "rea-reverse-the-new-tool-to-engineer-anything"
 author: ""
-image: "/images/posts/rea-reverse-the-new-tool-to-engineer-anything.png"
+image: "/images/posts/rea-reverse-the-new-tool-to-engineer-anything.webp"
 locale: "en"
 ---
 # REA Reverse: The New Tool to Engineer Anything

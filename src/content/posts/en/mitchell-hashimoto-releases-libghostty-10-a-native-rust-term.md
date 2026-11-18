@@ -5,7 +5,7 @@ description: "Mitchell Hashimoto has officially released Libghostty 1.0, a high-
 tags: [rust, linux, terminal, wayland, web development tools]
 slug: "mitchell-hashimoto-releases-libghostty-10-a-native-rust-term"
 author: ""
-image: "/images/posts/mitchell-hashimoto-releases-libghostty-10-a-native-rust-term.png"
+image: "/images/posts/mitchell-hashimoto-releases-libghostty-10-a-native-rust-term.webp"
 locale: "en"
 ---
 Mitchell Hashimoto, the creator of the popular virtualization tool Vagrant, has officially marked a significant milestone in the terminal emulator landscape with the release of Libghostty 1.0. After years of development, this project has graduated from a research initiative to a stable, production-ready library that aims to modernize the Linux desktop experience.

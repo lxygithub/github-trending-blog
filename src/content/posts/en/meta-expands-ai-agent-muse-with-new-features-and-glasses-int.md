@@ -5,7 +5,7 @@ description: "Discover the latest updates to Meta's AI agent Muse, announced at 
 tags: [meta, ai agent, muse, developers]
 slug: "meta-expands-ai-agent-muse-with-new-features-and-glasses-int"
 author: ""
-image: "/images/posts/meta-expands-ai-agent-muse-with-new-features-and-glasses-int.png"
+image: "/images/posts/meta-expands-ai-agent-muse-with-new-features-and-glasses-int.webp"
 locale: "en"
 ---
 # Meta Expands AI Agent Muse with New Features and Glasses Integration

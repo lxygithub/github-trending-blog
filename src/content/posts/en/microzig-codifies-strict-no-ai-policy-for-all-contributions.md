@@ -5,7 +5,7 @@ description: "The popular MicroZig project for embedded systems has updated its 
 tags: [microzig, zig, noaipolicy, embeddedsystems]
 slug: "microzig-codifies-strict-no-ai-policy-for-all-contributions"
 author: ""
-image: "/images/posts/microzig-codifies-strict-no-ai-policy-for-all-contributions.png"
+image: "/images/posts/microzig-codifies-strict-no-ai-policy-for-all-contributions.webp"
 locale: "en"
 ---
 The MicroZig project, a prominent ecosystem within the Zig programming language community, has taken a definitive stand on the use of Artificial Intelligence in software development. In a recent update to its repository, specifically the Code of Conduct (CoC), the maintainers have adopted a policy that strictly prohibits the use of Large Language Models (LLMs) or any other AI tools for generating repository content.

@@ -5,7 +5,7 @@ description: "Anthropic has reportedly decided to proceed with an initial public
 tags: [anthropic, ipo, artificial intelligence, tech industry]
 slug: "anthropic-files-for-ipo-what-the-ai-giants-public-listing-me"
 author: ""
-image: "/images/posts/anthropic-files-for-ipo-what-the-ai-giants-public-listing-me.png"
+image: "/images/posts/anthropic-files-for-ipo-what-the-ai-giants-public-listing-me.webp"
 locale: "en"
 ---
 The artificial intelligence landscape is witnessing one of its most significant shifts in recent memory. Anthropic, the San Francisco-based AI safety and research company, has reportedly decided to proceed with an initial public offering (IPO). This move suggests that the organization, known for creating the Claude large language model, is preparing to transition from a private entity to a publicly traded company.

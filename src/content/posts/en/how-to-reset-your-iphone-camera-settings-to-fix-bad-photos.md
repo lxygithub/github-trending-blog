@@ -5,7 +5,7 @@ description: "Learn how to quickly reset the camera settings on your iPhone to r
 tags: [iphone camera, photography tips, reset iphone settings, ios tutorial]
 slug: "how-to-reset-your-iphone-camera-settings-to-fix-bad-photos"
 author: ""
-image: "/images/posts/how-to-reset-your-iphone-camera-settings-to-fix-bad-photos.png"
+image: "/images/posts/how-to-reset-your-iphone-camera-settings-to-fix-bad-photos.webp"
 locale: "en"
 ---
 Ever feel like your iPhone’s photos aren’t looking as sharp or vibrant as they used to? You might have accidentally toggled an advanced setting, applied a persistent filter, or adjusted a format that’s now degrading your image quality. The good news is you don’t need to be a tech expert to fix this. Resetting your camera app to its default state is a straightforward process that can instantly restore your photos to their intended look.

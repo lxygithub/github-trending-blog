@@ -5,7 +5,7 @@ description: "A comprehensive timeline of the events surrounding the Jensen Huan
 tags: [jensen huang, nvidia, ai infrastructure, national security, tech scandal, geopolitics, tech news]
 slug: "the-unfolding-jensen-huang-scandal-a-timeline"
 author: ""
-image: "/images/posts/the-unfolding-jensen-huang-scandal-a-timeline.png"
+image: "/images/posts/the-unfolding-jensen-huang-scandal-a-timeline.webp"
 locale: "en"
 ---
 In the high-stakes arena of technology leadership, few names carry as much weight as Jensen Huang. As the CEO of NVIDIA, his strategic vision has been instrumental in powering the generative AI revolution that is currently transforming industries worldwide. However, recent developments have shifted the spotlight from his technical achievements to a deeply personal crisis that threatens to reverberate through the corridors of power and the global economy. This is not merely a story of personal misconduct; it is a potential threat to the delicate balance of national security.

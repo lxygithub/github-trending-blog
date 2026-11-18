@@ -5,7 +5,7 @@ description: "Researchers have created a new, stable form of ice that exists onl
 tags: [materials science, physics, extreme conditions, planetary science, scientific discovery]
 slug: "scientists-synthesize-hot-ice-at-a-blistering-2100c-a-breakt"
 author: ""
-image: "/images/posts/scientists-synthesize-hot-ice-at-a-blistering-2100c-a-breakt.png"
+image: "/images/posts/scientists-synthesize-hot-ice-at-a-blistering-2100c-a-breakt.webp"
 locale: "en"
 ---
 In a counterintuitive leap that blurs the line between fire and ice, scientists have successfully created a new form of ice that remains solid at temperatures exceeding **2,100°C** (nearly 3,800°F). This remarkable achievement, published in the journal *Nature Physics*, pushes the boundaries of our understanding of matter under extreme conditions.

@@ -5,7 +5,7 @@ description: "Discover the expected lifespan of cassette tapes and learn how to 
 tags: [retro tech, data preservation, storage tips, diy]
 slug: "how-long-do-cassette-tapes-last-storage-tips-for-developers"
 author: ""
-image: "/images/posts/how-long-do-cassette-tapes-last-storage-tips-for-developers.png"
+image: "/images/posts/how-long-do-cassette-tapes-last-storage-tips-for-developers.webp"
 locale: "en"
 ---
 So, you’ve dug out a box of old cassette tapes—maybe it’s your first music mix, a forgotten voice memo, or even some ancient data backups. You’re probably wondering: **how long will these actually last?**

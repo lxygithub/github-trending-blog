@@ -5,7 +5,7 @@ description: "Meta employees reportedly ordered hats labeled \"a/c priv\" as the
 tags: [meta, tech ethics, developer trust, platform accountability, legal strategy]
 slug: "metas-attorneyclient-privilege-hats-a-controversial-tactic-i"
 author: ""
-image: "/images/posts/metas-attorneyclient-privilege-hats-a-controversial-tactic-i.png"
+image: "/images/posts/metas-attorneyclient-privilege-hats-a-controversial-tactic-i.webp"
 locale: "en"
 ---
 In a peculiar intersection of corporate legal strategy and startup-style merch, a recently unsealed document reveals that the team behind launching Instagram's Teen Accounts in 2024 put in an order for baseball caps bearing the simple inscription "a/c priv." This detail, surfacing in ongoing lawsuits, sheds light on a broader and more contentious issue: Meta's legal team is arguing that certain evidence related to alleged harm to teens' mental health should be shielded from public view under the principle of attorney-client privilege.

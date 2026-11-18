@@ -5,7 +5,7 @@ description: "Nvidia staff have launched a significant internal campaign to rein
 tags: [nvidia, jensen huang, ceo, artificial intelligence, tech news, leadership, silicon valley, corporate culture]
 slug: "nvidia-employees-mobilize-for-jensen-huang-massive-internal"
 author: ""
-image: "/images/posts/nvidia-employees-mobilize-for-jensen-huang-massive-internal.png"
+image: "/images/posts/nvidia-employees-mobilize-for-jensen-huang-massive-internal.webp"
 locale: "en"
 ---
 In a surprising turn of events within the tech giant Nvidia, a grassroots movement has emerged to challenge the status quo of executive leadership. An internal post urging the board of directors to reconsider the company's leadership structure has sparked a massive debate among employees, with the majority voting to reinstall Jensen Huang as CEO.

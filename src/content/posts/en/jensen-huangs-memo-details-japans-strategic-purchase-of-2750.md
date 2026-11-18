@@ -5,7 +5,7 @@ description: "Explore the full text of Jensen Huang's recent memo. Japan is set 
 tags: [nvidia, jensen huang, ai chip, rubin architecture, robotics, japan, data center]
 slug: "jensen-huangs-memo-details-japans-strategic-purchase-of-2750"
 author: ""
-image: "/images/posts/jensen-huangs-memo-details-japans-strategic-purchase-of-2750.png"
+image: "/images/posts/jensen-huangs-memo-details-japans-strategic-purchase-of-2750.webp"
 locale: "en"
 ---
 In a significant move for the global artificial intelligence infrastructure landscape, Nvidia CEO Jensen Huang has shared insights into a major strategic partnership with Japan. During a media briefing following the company's "Japan AI Ecosystem" reception in Tokyo, Huang highlighted the country's ambitious plan to bolster its technological sovereignty through the acquisition of advanced hardware.

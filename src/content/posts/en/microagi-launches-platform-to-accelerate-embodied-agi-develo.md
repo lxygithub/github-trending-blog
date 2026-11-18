@@ -5,7 +5,7 @@ description: "Discover how Microagi is bridging the gap between AI and the physi
 tags: [embodied ai, robotics, microagi, agi, machine learning, devtools]
 slug: "microagi-launches-platform-to-accelerate-embodied-agi-develo"
 author: ""
-image: "/images/posts/microagi-launches-platform-to-accelerate-embodied-agi-develo.png"
+image: "/images/posts/microagi-launches-platform-to-accelerate-embodied-agi-develo.webp"
 locale: "en"
 ---
 The frontier of Artificial General Intelligence (AGI) is expanding far beyond virtual screens and text-based interfaces. We are witnessing a significant shift toward **Embodied AGI**—intelligence that interacts with, perceives, and manipulates the physical world. A new player has emerged to tackle the complexities of this domain: Microagi.

@@ -5,7 +5,7 @@ description: "OpenAI CEO Sam Altman clarifies the company's stance on an IPO, st
 tags: [openai, sam altman, ai safety, startup ipo, artificial intelligence]
 slug: "openai-ipo-timeline-sam-altman-declares-no-public-listing-un"
 author: ""
-image: "/images/posts/openai-ipo-timeline-sam-altman-declares-no-public-listing-un.png"
+image: "/images/posts/openai-ipo-timeline-sam-altman-declares-no-public-listing-un.webp"
 locale: "en"
 ---
 The question on every developer's mind recently has been when OpenAI will finally file for an Initial Public Offering (IPO). While the tech giant continues to push the boundaries of generative AI, CEO Sam Altman has provided a crucial update regarding the company's financial future.

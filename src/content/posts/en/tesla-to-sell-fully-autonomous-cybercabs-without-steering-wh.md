@@ -5,7 +5,7 @@ description: "Tesla confirmed its plans to launch the fully autonomous Cybercab 
 tags: [tesla, autonomous driving, robotics, software engineering]
 slug: "tesla-to-sell-fully-autonomous-cybercabs-without-steering-wh"
 author: ""
-image: "/images/posts/tesla-to-sell-fully-autonomous-cybercabs-without-steering-wh.png"
+image: "/images/posts/tesla-to-sell-fully-autonomous-cybercabs-without-steering-wh.webp"
 locale: "en"
 ---
 In a significant development for the autonomous vehicle industry, Tesla has confirmed that it will begin selling its fully autonomous Cybercab to customers by the end of this year. The announcement, made during the company’s third-quarter earnings call, signals a bold step toward removing human intervention in daily transportation.

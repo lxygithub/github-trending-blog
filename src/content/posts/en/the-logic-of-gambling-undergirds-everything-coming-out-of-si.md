@@ -5,7 +5,7 @@ description: "Explore the rising trend of prediction markets and statistical mod
 tags: [silicon valley, prediction markets, tech culture, data science]
 slug: "the-logic-of-gambling-undergirds-everything-coming-out-of-si"
 author: ""
-image: "/images/posts/the-logic-of-gambling-undergirds-everything-coming-out-of-si.png"
+image: "/images/posts/the-logic-of-gambling-undergirds-everything-coming-out-of-si.webp"
 locale: "en"
 ---
 For decades, the defining characteristic of Silicon Valley was the promise of efficiency: automating repetitive tasks, optimizing supply chains, and streamlining communication. However, a new paradigm has emerged that suggests the region's future is not defined by productivity, but by probability. As we look toward the technology landscape of the coming years, it is becoming increasingly clear that the logic of gambling is undergirding everything coming out of Silicon Valley.

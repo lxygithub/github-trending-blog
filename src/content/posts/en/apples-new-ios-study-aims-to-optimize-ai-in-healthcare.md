@@ -5,7 +5,7 @@ description: "Apple is teaming up with OpenEvidence to launch a clinical AI stud
 tags: [apple, ios, ai, machine learning, healthcare]
 slug: "apples-new-ios-study-aims-to-optimize-ai-in-healthcare"
 author: ""
-image: "/images/posts/apples-new-ios-study-aims-to-optimize-ai-in-healthcare.png"
+image: "/images/posts/apples-new-ios-study-aims-to-optimize-ai-in-healthcare.webp"
 locale: "en"
 ---
 Apple is pushing the boundaries of artificial intelligence by integrating it directly into healthcare workflows. Today, the tech giant announced a new initiative aimed at refining how conversational AI handles medical queries. In collaboration with OpenEvidence, a clinical AI platform trusted by healthcare professionals, Apple is launching the Apple Health AI Usage Study.

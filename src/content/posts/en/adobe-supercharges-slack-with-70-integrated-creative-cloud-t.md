@@ -5,7 +5,7 @@ description: "Adobe has deeply integrated its Creative Cloud suite into Slack, a
 tags: [slack, adobe creative cloud, integration, developer tools, productivity]
 slug: "adobe-supercharges-slack-with-70-integrated-creative-cloud-t"
 author: ""
-image: "/images/posts/adobe-supercharges-slack-with-70-integrated-creative-cloud-t.png"
+image: "/images/posts/adobe-supercharges-slack-with-70-integrated-creative-cloud-t.webp"
 locale: "en"
 ---
 # Streamlining Creative Workflows with Slack and Adobe

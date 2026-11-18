@@ -5,7 +5,7 @@ description: "Mazama Energy secures significant funding to advance its superhot-
 tags: [geothermal energy, clean tech, startup funding, drilling technology, renewable energy]
 slug: "khosla-ventures-backs-mazama-energy-in-135m-push-for-next-ge"
 author: ""
-image: "/images/posts/khosla-ventures-backs-mazama-energy-in-135m-push-for-next-ge.png"
+image: "/images/posts/khosla-ventures-backs-mazama-energy-in-135m-push-for-next-ge.webp"
 locale: "en"
 ---
 A major new investment is heating up the race to make advanced geothermal power a commercial reality. Mazama Energy, a startup backed by the visionary VC firm Khosla Ventures, has just announced a $135 million funding round to accelerate its mission of drilling deep to tap the Earth's most potent heat.

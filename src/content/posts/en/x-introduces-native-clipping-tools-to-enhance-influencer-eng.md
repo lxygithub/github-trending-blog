@@ -5,7 +5,7 @@ description: "X is rolling out a new native clipping feature to help creators tr
 tags: [x platform, video api, social media, content strategy]
 slug: "x-introduces-native-clipping-tools-to-enhance-influencer-eng"
 author: ""
-image: "/images/posts/x-introduces-native-clipping-tools-to-enhance-influencer-eng.png"
+image: "/images/posts/x-introduces-native-clipping-tools-to-enhance-influencer-eng.webp"
 locale: "en"
 ---
 The landscape of social media is constantly evolving, with short-form video remaining a dominant force in user retention. In a strategic move to compete with platforms like TikTok and Instagram, X has announced the launch of its own native clipping feature. This tool allows creators to automatically or manually extract segments from longer videos, transforming them into shareable clips optimized for maximum engagement.

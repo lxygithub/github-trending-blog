@@ -5,7 +5,7 @@ description: "As Anthropic prepares for its highly anticipated initial public of
 tags: [anthropic, amazon, ipo, venture capital, ai, startup funding]
 slug: "vcs-eye-billions-from-anthropic-ipo-but-amazons-stake-is-the"
 author: ""
-image: "/images/posts/vcs-eye-billions-from-anthropic-ipo-but-amazons-stake-is-the.png"
+image: "/images/posts/vcs-eye-billions-from-anthropic-ipo-but-amazons-stake-is-the.webp"
 locale: "en"
 ---
 The artificial intelligence sector is currently experiencing a financial gold rush, with startups valued at astronomical heights. However, as the industry’s most anticipated initial public offering (IPO) approaches, the financial landscape is shifting in unexpected ways. While venture capitalists are positioning themselves for massive windfalls, a closer look at Anthropic’s funding history reveals that the real financial heavyweight might not be the investors at all, but Amazon.

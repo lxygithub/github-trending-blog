@@ -5,7 +5,7 @@ description: "A comprehensive study examining the two-year deployment of Khan Ac
 tags: [artificial intelligence, education tech, machine learning, edtech]
 slug: "long-term-impact-a-two-year-analysis-of-khanmigos-efficacy-i"
 author: ""
-image: "/images/posts/long-term-impact-a-two-year-analysis-of-khanmigos-efficacy-i.png"
+image: "/images/posts/long-term-impact-a-two-year-analysis-of-khanmigos-efficacy-i.webp"
 locale: "en"
 ---
 The integration of Large Language Models (LLMs) into the classroom has moved from a futuristic concept to a tangible reality. A recent two-year study provides one of the most detailed longitudinal analyses of an AI tutoring tool in K-12 education, specifically focusing on Khan Academy's "Khanmigo." This experiment offers valuable data points for developers and educators alike regarding the scalability and effectiveness of generative AI in high-stakes environments.

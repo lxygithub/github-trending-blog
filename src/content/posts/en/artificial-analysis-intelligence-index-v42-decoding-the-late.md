@@ -5,7 +5,7 @@ description: "Explore the key findings from the Artificial Analysis Intelligence
 tags: [ai benchmarks, llm performance, model cost analysis, developer tools, ai infrastructure]
 slug: "artificial-analysis-intelligence-index-v42-decoding-the-late"
 author: ""
-image: "/images/posts/artificial-analysis-intelligence-index-v42-decoding-the-late.png"
+image: "/images/posts/artificial-analysis-intelligence-index-v42-decoding-the-late.webp"
 locale: "en"
 ---
 # Artificial Analysis Intelligence Index v4.2: Decoding the Latest in AI Model Performance and Cost

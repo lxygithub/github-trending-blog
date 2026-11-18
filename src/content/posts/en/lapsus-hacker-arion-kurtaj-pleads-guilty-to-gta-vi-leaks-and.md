@@ -5,7 +5,7 @@ description: "The Lapsus$ member responsible for the high-profile GTA VI leaks a
 tags: [cybersecurity, lapsus$, gta vi, crime, security]
 slug: "lapsus-hacker-arion-kurtaj-pleads-guilty-to-gta-vi-leaks-and"
 author: ""
-image: "/images/posts/lapsus-hacker-arion-kurtaj-pleads-guilty-to-gta-vi-leaks-and.png"
+image: "/images/posts/lapsus-hacker-arion-kurtaj-pleads-guilty-to-gta-vi-leaks-and.webp"
 locale: "en"
 ---
 Arion Kurtaj, a prominent member of the notorious cybercrime collective Lapsus$, has officially pleaded guilty to charges related to the massive leaks of Grand Theft Auto VI and other major security breaches. The announcement was made by the UK's Crown Prosecution Service (CPS) this week.

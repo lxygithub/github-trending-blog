@@ -5,7 +5,7 @@ description: "SpaceX achieved a historic milestone by catching the Starship boos
 tags: [spacex, starship, space technology, rocketry]
 slug: "spacexs-starship-booster-successfully-caught-but-the-mission"
 author: ""
-image: "/images/posts/spacexs-starship-booster-successfully-caught-but-the-mission.png"
+image: "/images/posts/spacexs-starship-booster-successfully-caught-but-the-mission.webp"
 locale: "en"
 ---
 On Saturday, the atmosphere at Starbase was electric. For observers and engineers alike, the launch of the massive Starship vehicle felt less like a routine test flight and more like stepping into the future. While the event was a visual spectacle, the mission held a critical detail that engineers are already analyzing: the booster was caught, but the upper stage’s fate remains uncertain.

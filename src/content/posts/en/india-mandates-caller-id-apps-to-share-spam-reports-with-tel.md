@@ -5,7 +5,7 @@ description: "India's new regulation requires caller-ID apps to provide spam dat
 tags: [caller-id apps, spam reports, telecom regulation, data privacy]
 slug: "india-mandates-caller-id-apps-to-share-spam-reports-with-tel"
 author: ""
-image: "/images/posts/india-mandates-caller-id-apps-to-share-spam-reports-with-tel.png"
+image: "/images/posts/india-mandates-caller-id-apps-to-share-spam-reports-with-tel.webp"
 locale: "en"
 ---
 India's Department of Telecommunications has issued a directive requiring caller-identification apps, such as Truecaller, to share their spam report databases directly with telecom operators. The move aims to strengthen anti-spam measures across the country's telecommunications network.

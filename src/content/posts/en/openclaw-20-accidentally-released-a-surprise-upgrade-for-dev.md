@@ -5,7 +5,7 @@ description: "The open-source project OpenClaw just rolled out version 2.0 throu
 tags: [openclaw, open source, ai tools, github, developer resources]
 slug: "openclaw-20-accidentally-released-a-surprise-upgrade-for-dev"
 author: ""
-image: "/images/posts/openclaw-20-accidentally-released-a-surprise-upgrade-for-dev.png"
+image: "/images/posts/openclaw-20-accidentally-released-a-surprise-upgrade-for-dev.webp"
 locale: "en"
 ---
 # OpenClaw 2.0 Accidentally Released: A Surprise Upgrade for Developers

@@ -5,7 +5,7 @@ description: "Explore Edsger W. Dijkstra's 1978 critique of natural language pro
 tags: [software engineering, programming history, edsger dijkstra, computer science, natural language processing, logic]
 slug: "dijkstras-1978-warning-why-natural-language-programming-rema"
 author: ""
-image: "/images/posts/dijkstras-1978-warning-why-natural-language-programming-rema.png"
+image: "/images/posts/dijkstras-1978-warning-why-natural-language-programming-rema.webp"
 locale: "en"
 ---
 In the ever-evolving landscape of software development, we often treat new technologies as radical departures from the past. However, the fundamental debates that shaped the industry decades ago continue to echo in modern discussions. One such debate, addressed in a seminal 1978 essay, challenges the very premise of using natural language—like English—as the primary medium for programming.

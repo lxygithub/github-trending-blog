@@ -16,6 +16,7 @@ import { load } from 'js-yaml';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const CONTENT_DIR = path.join(ROOT, 'src', 'content');
+const COVER_DIR = path.join(ROOT, 'public', 'images', 'posts');
 const MD_EXT = new Set(['.md', '.mdx']);
 
 const issues = [];
@@ -101,6 +102,11 @@ function checkFile(file) {
     report(file, `字段 "locale" 只能是 en 或 zh，当前为 ${JSON.stringify(data.locale)}`);
   }
 
+  // 封面图必须是 WebP：拦截自动生成流程回退到 PNG 的情况
+  if (typeof data.image === 'string' && /\.png$/i.test(data.image)) {
+    report(file, `封面图 image 引用了 .png（应使用 .webp）: ${data.image}`);
+  }
+
   // 数组型可选字段的类型检查（这些字段若写成标量通常是生成错误）
   for (const key of ['authors', 'categories']) {
     if (data[key] !== undefined && !Array.isArray(data[key])) {
@@ -111,10 +117,18 @@ function checkFile(file) {
 
 walk(CONTENT_DIR);
 
+// 检查封面图目录里是否混入了 PNG（生成流程应直接产出 WebP）
+if (fs.existsSync(COVER_DIR)) {
+  const pngs = fs.readdirSync(COVER_DIR).filter((f) => /\.png$/i.test(f));
+  if (pngs.length > 0) {
+    report(path.join(COVER_DIR, pngs[0]), `封面图目录存在 ${pngs.length} 个 .png 文件，应转为 WebP（运行 node scripts/images-to-webp.mjs）`);
+  }
+}
+
 if (issues.length > 0) {
   console.error(`\n[validate-content] 校验失败：检查了 ${checked} 篇文章，发现 ${issues.length} 处问题：\n`);
   for (const issue of issues) console.error(`  - ${issue}`);
-  console.error('\n请修正以上 frontmatter 后再构建。常见错误：tags 写成 [#a #b] 而非 [a, b]。\n');
+  console.error('\n请修正以上问题后再构建。常见错误：tags 写成 [#a #b] 而非 [a, b]；封面图使用了 PNG。\n');
   process.exit(1);
 }
 

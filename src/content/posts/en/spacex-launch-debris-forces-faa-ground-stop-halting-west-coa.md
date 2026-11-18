@@ -5,7 +5,7 @@ description: "A sudden FAA ground stop has brought air travel on the West Coast 
 tags: [spacex, faa, aviation, spacedebris]
 slug: "spacex-launch-debris-forces-faa-ground-stop-halting-west-coa"
 author: ""
-image: "/images/posts/spacex-launch-debris-forces-faa-ground-stop-halting-west-coa.png"
+image: "/images/posts/spacex-launch-debris-forces-faa-ground-stop-halting-west-coa.webp"
 locale: "en"
 ---
 A critical operational disruption has occurred on the West Coast as the Federal Aviation Administration (FAA) issued a ground stop following reports of debris attributed to SpaceX operations. The Hawaii Department of Transportation (Hawaii DOT) has confirmed the incident, impacting flights across the region.

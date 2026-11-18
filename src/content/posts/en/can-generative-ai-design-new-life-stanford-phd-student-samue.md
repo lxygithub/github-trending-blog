@@ -5,7 +5,7 @@ description: "Stanford PhD student Samuel King used generative AI to propose vir
 tags: [artificial intelligence, generative ai, biosecurity, bioengineering, machine learning]
 slug: "can-generative-ai-design-new-life-stanford-phd-student-samue"
 author: ""
-image: "/images/posts/can-generative-ai-design-new-life-stanford-phd-student-samue.png"
+image: "/images/posts/can-generative-ai-design-new-life-stanford-phd-student-samue.webp"
 locale: "en"
 ---
 In the rapidly evolving landscape of biotechnology and artificial intelligence, a fundamental question has moved from science fiction to the forefront of technical debate: Can AI design new life forms?

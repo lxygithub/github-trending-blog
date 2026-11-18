@@ -5,7 +5,7 @@ description: "California lawmakers have unanimously passed a bill that exempts s
 tags: [open source, legislation, privacy, linux, software licenses, developer community]
 slug: "california-exempts-open-source-software-from-age-verificatio"
 author: ""
-image: "/images/posts/california-exempts-open-source-software-from-age-verificatio.png"
+image: "/images/posts/california-exempts-open-source-software-from-age-verificatio.webp"
 locale: "en"
 ---
 In a unanimous vote, the California state legislature has passed a significant amendment that creates a clear exemption for open-source software from the state's stringent age-verification laws. This move is being celebrated as a major victory for the developer community and the open-source ecosystem.

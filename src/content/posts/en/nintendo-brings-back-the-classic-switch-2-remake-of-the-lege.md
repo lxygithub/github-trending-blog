@@ -5,7 +5,7 @@ description: "Ahead of Grand Theft Auto VI, Nintendo is unleashing a high-fideli
 tags: [nintendo switch 2, zelda ocarina of time, gaming news, remake]
 slug: "nintendo-brings-back-the-classic-switch-2-remake-of-the-lege"
 author: ""
-image: "/images/posts/nintendo-brings-back-the-classic-switch-2-remake-of-the-lege.png"
+image: "/images/posts/nintendo-brings-back-the-classic-switch-2-remake-of-the-lege.webp"
 locale: "en"
 ---
 As the gaming industry prepares for the massive release of Rockstar Games' *Grand Theft Auto VI*, Nintendo is countering with its own heavy hitter for the fall season. The company has officially announced a remake of the beloved classic, *The Legend of Zelda: Ocarina of Time*, specifically optimized for the upcoming Switch 2 console.

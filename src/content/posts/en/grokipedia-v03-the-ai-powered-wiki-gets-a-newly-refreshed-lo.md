@@ -5,7 +5,7 @@ description: "SpaceXAI has rolled out a significant design overhaul for Grokiped
 tags: [spacexai, grokipedia, artificial intelligence, web development, wikipedia alternative]
 slug: "grokipedia-v03-the-ai-powered-wiki-gets-a-newly-refreshed-lo"
 author: ""
-image: "/images/posts/grokipedia-v03-the-ai-powered-wiki-gets-a-newly-refreshed-lo.png"
+image: "/images/posts/grokipedia-v03-the-ai-powered-wiki-gets-a-newly-refreshed-lo.webp"
 locale: "en"
 ---
 After a period of downtime, **SpaceXAI** has reintroduced edits to **Grokipedia**, its controversial AI-powered alternative to Wikipedia. Following this restoration, the platform has undergone a visual transformation with the release of version 0.3.

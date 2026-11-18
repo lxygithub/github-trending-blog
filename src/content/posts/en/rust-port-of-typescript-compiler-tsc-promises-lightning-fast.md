@@ -5,7 +5,7 @@ description: "A new open-source project aims to rewrite the TypeScript compiler 
 tags: [typescript, rust, web development, compiler, frontend, performance, devpulse]
 slug: "rust-port-of-typescript-compiler-tsc-promises-lightning-fast"
 author: ""
-image: "/images/posts/rust-port-of-typescript-compiler-tsc-promises-lightning-fast.png"
+image: "/images/posts/rust-port-of-typescript-compiler-tsc-promises-lightning-fast.webp"
 locale: "en"
 ---
 The TypeScript ecosystem is facing a significant evolution. While TypeScript has become the bedrock of modern JavaScript application development, its core compiler, tsc, has remained written in JavaScript. Recognizing the need for higher performance and greater memory efficiency, a new initiative has emerged to port the TypeScript compiler to Rust.

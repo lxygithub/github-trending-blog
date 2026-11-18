@@ -5,7 +5,7 @@ description: "Meta is democratizing AI development by open-sourcing its Muse mod
 tags: [artificial intelligence, open source, meta, hardware development]
 slug: "meta-open-sources-muse-ai-empowering-developers-to-build-sma"
 author: ""
-image: "/images/posts/meta-open-sources-muse-ai-empowering-developers-to-build-sma.png"
+image: "/images/posts/meta-open-sources-muse-ai-empowering-developers-to-build-sma.webp"
 locale: "en"
 ---
 In a significant shift toward democratizing artificial intelligence, Meta has announced the open-sourcing of its Muse AI model. This initiative signals a clear intent to move AI from the smartphone into the wider ecosystem of consumer hardware, ranging from televisions to kitchen appliances.

@@ -5,7 +5,7 @@ description: "New research reveals Starlink satellite signal leakage is interfer
 tags: [starlink, radio astronomy, spectrum management, space interference, electromagnetic compatibility, scientific research]
 slug: "starlink-signal-leakage-threatens-critical-frequencies-in-ra"
 author: ""
-image: "/images/posts/starlink-signal-leakage-threatens-critical-frequencies-in-ra.png"
+image: "/images/posts/starlink-signal-leakage-threatens-critical-frequencies-in-ra.webp"
 locale: "en"
 ---
 The silent signals from the stars may soon be drowned out by the chatter of thousands of satellites. A concerning development has emerged for the global radio astronomy community: signal leakage from SpaceX's Starlink mega-constellation is now detected within the most strictly protected radio astronomy bands.

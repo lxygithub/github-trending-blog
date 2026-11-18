@@ -5,7 +5,7 @@ description: "Remembering Bob Cringely: The Early Apple Employee and Creator of 
 tags: [apple, silicon valley, history, documentary]
 slug: "tributes-pour-in-for-bob-cringely-creator-of-triumph-of-the"
 author: ""
-image: "/images/posts/tributes-pour-in-for-bob-cringely-creator-of-triumph-of-the.png"
+image: "/images/posts/tributes-pour-in-for-bob-cringely-creator-of-triumph-of-the.webp"
 locale: "en"
 ---
 It is with great sadness that we report the passing of Bob Cringely, a notable figure in the early days of the personal computer revolution. According to reports, Cringely died in his sleep early Saturday morning. Bob, whose real name was Mark Stevens, leaves behind a legacy that bridges the gap between the early days of tech and modern computing history.

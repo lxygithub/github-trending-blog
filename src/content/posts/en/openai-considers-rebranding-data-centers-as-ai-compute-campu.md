@@ -5,7 +5,7 @@ description: "OpenAI is reportedly exploring a strategic rebranding of its infra
 tags: [openai, artificial intelligence, data centers, infrastructure, tech news]
 slug: "openai-considers-rebranding-data-centers-as-ai-compute-campu"
 author: ""
-image: "/images/posts/openai-considers-rebranding-data-centers-as-ai-compute-campu.png"
+image: "/images/posts/openai-considers-rebranding-data-centers-as-ai-compute-campu.webp"
 locale: "en"
 ---
 As the race to build the next generation of artificial intelligence accelerates, the physical infrastructure underpinning these models is becoming a focal point of public and political scrutiny. According to industry reports, OpenAI is currently exploring a significant branding shift for its physical facilities, potentially moving away from the term "data centers" in favor of "AI compute campuses."

@@ -5,7 +5,7 @@ description: "Explore the fascinating history of electric vehicles and why they 
 tags: [ev history, automotive history, electric vehicles, technology]
 slug: "electric-vehicles-when-they-were-the-choice-of-women"
 author: ""
-image: "/images/posts/electric-vehicles-when-they-were-the-choice-of-women.png"
+image: "/images/posts/electric-vehicles-when-they-were-the-choice-of-women.webp"
 locale: "en"
 ---
 The modern renaissance of electric vehicles is often framed as a necessary step toward a sustainable future. However, the current surge in EV adoption brings with it a striking sense of déjà vu. As society races to electrify transportation once again, it is worth looking back to the late 19th century—a time when electric cars were not just an alternative, but the preferred choice for many drivers, particularly women.

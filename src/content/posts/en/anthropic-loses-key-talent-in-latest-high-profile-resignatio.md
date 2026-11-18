@@ -5,7 +5,7 @@ description: "A notable resignation from AI safety leader Anthropic sparks discu
 tags: [anthropic, ai safety, machine learning, tech industry, resignation]
 slug: "anthropic-loses-key-talent-in-latest-high-profile-resignatio"
 author: ""
-image: "/images/posts/anthropic-loses-key-talent-in-latest-high-profile-resignatio.png"
+image: "/images/posts/anthropic-loses-key-talent-in-latest-high-profile-resignatio.webp"
 locale: "en"
 ---
 Another high-profile departure has shaken the artificial intelligence sector. A key individual has announced their resignation from Anthropic, the AI safety and research company known for developing the Claude language model and its focus on building reliable, interpretable, and steerable AI systems.

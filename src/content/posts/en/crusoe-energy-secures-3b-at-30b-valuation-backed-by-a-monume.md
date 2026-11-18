@@ -5,7 +5,7 @@ description: "Crusoe Energy has reportedly closed a $3 billion funding round, va
 tags: [crusoe energy, data center, cloud infrastructure, sustainable computing, ai training]
 slug: "crusoe-energy-secures-3b-at-30b-valuation-backed-by-a-monume"
 author: ""
-image: "/images/posts/crusoe-energy-secures-3b-at-30b-valuation-backed-by-a-monume.png"
+image: "/images/posts/crusoe-energy-secures-3b-at-30b-valuation-backed-by-a-monume.webp"
 locale: "en"
 ---
 The competitive landscape of AI infrastructure and cloud computing is witnessing a seismic shift, with Crusoe Energy reportedly closing a monumental $3 billion funding round. The raise values the company at an impressive $30 billion, solidifying its position as a major player in the future of compute.

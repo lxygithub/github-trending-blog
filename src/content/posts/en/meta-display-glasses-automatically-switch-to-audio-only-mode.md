@@ -5,7 +5,7 @@ description: "Discover how Meta's new smart glasses enhance driving safety with 
 tags: [meta, smart glasses, driving safety, audio-only feature]
 slug: "meta-display-glasses-automatically-switch-to-audio-only-mode"
 author: ""
-image: "/images/posts/meta-display-glasses-automatically-switch-to-audio-only-mode.png"
+image: "/images/posts/meta-display-glasses-automatically-switch-to-audio-only-mode.webp"
 locale: "en"
 ---
 Meta is taking significant steps toward responsible innovation in wearable technology with its latest update for the Display glasses. The company has introduced a thoughtful safety feature designed specifically for drivers, automatically managing the device's functions to minimize distraction.

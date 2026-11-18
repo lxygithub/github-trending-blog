@@ -5,7 +5,7 @@ description: "Google has agreed to purchase energy from a restarted nuclear plan
 tags: [google, nuclear energy, artificial intelligence, renewable energy, data centers, sustainability, tech industry]
 slug: "googles-nuclear-power-bet-securing-clean-energy-for-the-ai-e"
 author: ""
-image: "/images/posts/googles-nuclear-power-bet-securing-clean-energy-for-the-ai-e.png"
+image: "/images/posts/googles-nuclear-power-bet-securing-clean-energy-for-the-ai-e.webp"
 locale: "en"
 ---
 In a move that blurs the lines between technology and traditional energy infrastructure, Google has signed a landmark agreement to purchase a significant portion of the output from a Pennsylvania nuclear power plant. This deal is not about keeping the lights on for a few searches; it's a direct investment in the backbone of the future: artificial intelligence.

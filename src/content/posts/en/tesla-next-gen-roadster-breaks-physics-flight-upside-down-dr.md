@@ -5,7 +5,7 @@ description: "Tesla has officially demonstrated the capabilities of its next-gen
 tags: [tesla, electric vehicles, automotive engineering, elon musk, future tech]
 slug: "tesla-next-gen-roadster-breaks-physics-flight-upside-down-dr"
 author: ""
-image: "/images/posts/tesla-next-gen-roadster-breaks-physics-flight-upside-down-dr.png"
+image: "/images/posts/tesla-next-gen-roadster-breaks-physics-flight-upside-down-dr.webp"
 locale: "en"
 ---
 **Tesla Unveils the Ultimate Electric Supercar: Flight and Sub-One-Second Acceleration**

@@ -5,7 +5,7 @@ description: "Following recent public opposition to data center expansion, OpenA
 tags: [openai, data centers, ai infrastructure, transparency, tech policy]
 slug: "openai-ends-ndas-for-data-center-projects-amid-community-scr"
 author: ""
-image: "/images/posts/openai-ends-ndas-for-data-center-projects-amid-community-scr.png"
+image: "/images/posts/openai-ends-ndas-for-data-center-projects-amid-community-scr.webp"
 locale: "en"
 ---
 In a move that addresses growing community concerns over rapid infrastructure expansion, OpenAI has announced a shift in its public relations strategy regarding data center projects. Following recent midterm elections where voters resoundingly voiced opposition to data center growth in certain regions, the company is removing non-disclosure agreements (NDAs) from discussions with public officials.

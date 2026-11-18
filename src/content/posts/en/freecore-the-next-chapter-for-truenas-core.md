@@ -5,7 +5,7 @@ description: "Discover FreeCORE, the independent fork of TrueNAS Core. We explor
 tags: [truenas, open-source, self-hosted, homelab, zfs]
 slug: "freecore-the-next-chapter-for-truenas-core"
 author: ""
-image: "/images/posts/freecore-the-next-chapter-for-truenas-core.png"
+image: "/images/posts/freecore-the-next-chapter-for-truenas-core.webp"
 locale: "en"
 ---
 The open-source storage landscape has a new major player. **FreeCORE** has officially launched as an independent, community-driven fork of the popular TrueNAS Core platform. This move comes after a period of transition, marking a new chapter for the well-known FreeBSD and ZFS-based operating system.

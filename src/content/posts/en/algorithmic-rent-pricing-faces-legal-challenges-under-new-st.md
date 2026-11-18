@@ -1,5 +1,5 @@
 ---
-image: "/images/posts/algorithmic-rent-pricing-faces-legal-challenges-under-new-st.png"
+image: "/images/posts/algorithmic-rent-pricing-faces-legal-challenges-under-new-st.webp"
 title: "Algorithmic Rent Pricing Faces Legal Challenges Under New State and Local Laws"
 pubDate: 2026-08-30T05:30:22.410Z
 description: "New laws in multiple US states target algorithmic rent-setting tools, leading to expanded litigation. Developers must understand the implications for AI pricing models and software liability."

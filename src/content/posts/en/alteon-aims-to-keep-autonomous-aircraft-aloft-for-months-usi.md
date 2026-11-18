@@ -5,7 +5,7 @@ description: "Backed by investor Lachy Groom, Indian startup Alteon, founded by 
 tags: [aviation, renewable energy, indian startup, autonomous systems, alteon]
 slug: "alteon-aims-to-keep-autonomous-aircraft-aloft-for-months-usi"
 author: ""
-image: "/images/posts/alteon-aims-to-keep-autonomous-aircraft-aloft-for-months-usi.png"
+image: "/images/posts/alteon-aims-to-keep-autonomous-aircraft-aloft-for-months-usi.webp"
 locale: "en"
 ---
 A new Indian startup is targeting a bold challenge in aviation and renewable energy: keeping an aircraft flying continuously for months at a time. **Alteon**, founded by 20-year-old **Ananya Singhal**, has secured backing from notable tech investor **Lachy Groom** to develop its autonomous, wind-energy-harvesting aircraft.

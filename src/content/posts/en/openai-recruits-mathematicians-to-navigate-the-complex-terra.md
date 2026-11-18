@@ -5,7 +5,7 @@ description: "After a series of high-profile mathematical announcements turned i
 tags: [mathematics, ai ethics, openai, research collaboration]
 slug: "openai-recruits-mathematicians-to-navigate-the-complex-terra"
 author: ""
-image: "/images/posts/openai-recruits-mathematicians-to-navigate-the-complex-terra.png"
+image: "/images/posts/openai-recruits-mathematicians-to-navigate-the-complex-terra.webp"
 locale: "en"
 ---
 The intersection of artificial intelligence and pure mathematics has recently become a high-stakes arena. After a string of spectacular, and then disputed, claims about AI's ability to solve advanced mathematical problems, OpenAI found itself in the midst of a reputational crisis within the academic community. Now, in a move that signals a significant shift, the company is reaching out to the very experts it inadvertently alienated.

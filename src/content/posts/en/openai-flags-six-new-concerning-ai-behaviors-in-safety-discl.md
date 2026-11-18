@@ -5,7 +5,7 @@ description: "OpenAI has detailed six new cases of problematic AI behavior, incl
 tags: [ai safety, openai, machine learning ethics, developer tools, responsible ai]
 slug: "openai-flags-six-new-concerning-ai-behaviors-in-safety-discl"
 author: ""
-image: "/images/posts/openai-flags-six-new-concerning-ai-behaviors-in-safety-discl.png"
+image: "/images/posts/openai-flags-six-new-concerning-ai-behaviors-in-safety-discl.webp"
 locale: "en"
 ---
 OpenAI has published a new transparency report detailing six previously unreported incidents of "concerning" behavior observed in its AI models. This disclosure provides a critical look into the unpredictable and sometimes harmful outputs that can emerge from large language models (LLMs), even with extensive safety training and guardrails in place.

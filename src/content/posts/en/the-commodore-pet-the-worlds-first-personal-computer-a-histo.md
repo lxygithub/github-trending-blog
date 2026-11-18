@@ -5,7 +5,7 @@ description: "Explore the legacy of the Commodore PET, widely recognized as the 
 tags: [commodore pet, history of computing, retro tech, vintage computers, computing history]
 slug: "the-commodore-pet-the-worlds-first-personal-computer-a-histo"
 author: ""
-image: "/images/posts/the-commodore-pet-the-worlds-first-personal-computer-a-histo.png"
+image: "/images/posts/the-commodore-pet-the-worlds-first-personal-computer-a-histo.webp"
 locale: "en"
 ---
 In the annals of technology history, few devices command the same respect as the Commodore PET. Released in 1977, it is widely credited as the world's first mass-produced personal computer. While other machines like the Apple II and TRS-80 were vying for attention in the same year, the PET established a fundamental blueprint for what a personal computer should be.

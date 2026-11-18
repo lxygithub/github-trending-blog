@@ -5,7 +5,7 @@ description: "California has enacted a new law mandating fines for autonomous ve
 tags: [autonomous vehicles, robotaxis, california law, ai safety, tech regulation]
 slug: "new-california-law-imposes-fines-on-robotaxis-blocking-first"
 author: ""
-image: "/images/posts/new-california-law-imposes-fines-on-robotaxis-blocking-first.png"
+image: "/images/posts/new-california-law-imposes-fines-on-robotaxis-blocking-first.webp"
 locale: "en"
 ---
 The rapid expansion of autonomous ride-hailing services in California has brought a new regulatory focus on public safety. In a recent legislative move, state authorities have clarified that robotaxi operators will be held financially accountable if their vehicles interfere with emergency responders.

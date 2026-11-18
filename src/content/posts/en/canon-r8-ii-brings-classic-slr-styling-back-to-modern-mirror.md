@@ -5,7 +5,7 @@ description: "Canon refocuses on full-frame photographers with the EOS R8 II, a 
 tags: [canon, mirrorless camera, eos r8 ii, photography]
 slug: "canon-r8-ii-brings-classic-slr-styling-back-to-modern-mirror"
 author: ""
-image: "/images/posts/canon-r8-ii-brings-classic-slr-styling-back-to-modern-mirror.png"
+image: "/images/posts/canon-r8-ii-brings-classic-slr-styling-back-to-modern-mirror.webp"
 locale: "en"
 ---
 Canon has recently turned much of its attention to the vlogging and content creation market. However, the company has not left dedicated full-frame photographers behind. The upcoming **Canon EOS R8 II** is a clear signal that Canon is listening, promising a camera that marries cutting-edge mirrorless technology with a design philosophy that pays homage to its rich film heritage.

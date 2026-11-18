@@ -5,7 +5,7 @@ description: "The IRS has mandated ID.me terms for tax portal access, shifting t
 tags: [identity verification, irs, id.me, government tech, api, authentication, cybersecurity, developer news]
 slug: "idme-terms-of-service-now-mandatory-for-irs-sign-in-what-dev"
 author: ""
-image: "/images/posts/idme-terms-of-service-now-mandatory-for-irs-sign-in-what-dev.png"
+image: "/images/posts/idme-terms-of-service-now-mandatory-for-irs-sign-in-what-dev.webp"
 locale: "en"
 ---
 As tax season approaches, a significant change in the digital landscape of public services has emerged, one that impacts both taxpayers and the software engineers building the underlying infrastructure. The U.S. Internal Revenue Service (IRS) has updated its sign-in requirements to mandate that taxpayers must accept the terms of service for the identity verification provider ID.me before accessing the tax portal.

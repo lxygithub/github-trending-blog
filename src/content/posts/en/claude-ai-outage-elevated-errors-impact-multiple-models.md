@@ -5,7 +5,7 @@ description: "Anthropic's status page reports elevated error rates affecting its
 tags: [ai outage, claude api, anthropic status, service reliability, ai error rate]
 slug: "claude-ai-outage-elevated-errors-impact-multiple-models"
 author: ""
-image: "/images/posts/claude-ai-outage-elevated-errors-impact-multiple-models.png"
+image: "/images/posts/claude-ai-outage-elevated-errors-impact-multiple-models.webp"
 locale: "en"
 ---
 # Claude AI Status Incident: Elevated Errors Reported for Multiple Models

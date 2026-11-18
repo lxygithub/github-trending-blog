@@ -5,7 +5,7 @@ description: "A recent legal ruling allows a University of Kentucky administrato
 tags: [artificial intelligence, workplace policy, legal tech, productivity]
 slug: "university-administrator-secures-religious-exemption-from-wo"
 author: ""
-image: "/images/posts/university-administrator-secures-religious-exemption-from-wo.png"
+image: "/images/posts/university-administrator-secures-religious-exemption-from-wo.webp"
 locale: "en"
 ---
 The rapid integration of Artificial Intelligence into professional workflows is reshaping the modern office. While many developers and tech enthusiasts embrace these tools for efficiency, a groundbreaking legal case in the United States has highlighted the friction between technological advancement and personal beliefs.

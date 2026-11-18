@@ -5,7 +5,7 @@ description: "Seattle Times and Newsday join a growing list of media companies s
 tags: [ai lawsuit, copyright infringement, openai, news media, machine learning]
 slug: "major-news-publications-sue-openai-and-microsoft-over-ai-tra"
 author: ""
-image: "/images/posts/major-news-publications-sue-openai-and-microsoft-over-ai-tra.png"
+image: "/images/posts/major-news-publications-sue-openai-and-microsoft-over-ai-tra.webp"
 locale: "en"
 ---
 The legal battle between traditional media and artificial intelligence developers has escalated significantly with two more major publications filing lawsuits against OpenAI and Microsoft. The Seattle Times and Newsday have become the latest in a growing list of news organizations taking legal action, alleging their copyrighted journalism has been used without permission to train large language models (LLMs).
