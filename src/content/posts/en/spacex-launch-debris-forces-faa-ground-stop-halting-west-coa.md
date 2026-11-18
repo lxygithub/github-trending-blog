@@ -2,7 +2,7 @@
 title: "SpaceX Launch Debris Forces FAA Ground Stop, Halting West Coast Flights"
 pubDate: 2026-11-14T01:31:34.611Z
 description: "A sudden FAA ground stop has brought air travel on the West Coast to a standstill following reports of debris from a SpaceX launch. Here is a breakdown of the incident and its implications for air tra"
-tags: [#spacex #faa #aviation #spacedebris]
+tags: [spacex, faa, aviation, spacedebris]
 slug: "spacex-launch-debris-forces-faa-ground-stop-halting-west-coa"
 author: ""
 image: "/images/posts/spacex-launch-debris-forces-faa-ground-stop-halting-west-coa.png"

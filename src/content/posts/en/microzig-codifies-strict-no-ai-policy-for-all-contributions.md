@@ -2,7 +2,7 @@
 title: "MicroZig Codifies Strict 'No AI' Policy for All Contributions"
 pubDate: 2026-10-29T01:32:16.511Z
 description: "The popular MicroZig project for embedded systems has updated its Code of Conduct to explicitly ban the use of Large Language Models (LLMs) and AI tools. This move aims to ensure code quality and huma"
-tags: [#microzig #zig #noaipolicy #embeddedsystems]
+tags: [microzig, zig, noaipolicy, embeddedsystems]
 slug: "microzig-codifies-strict-no-ai-policy-for-all-contributions"
 author: ""
 image: "/images/posts/microzig-codifies-strict-no-ai-policy-for-all-contributions.png"

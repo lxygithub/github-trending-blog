@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "prebuild": "npm run check:content",
+    "check:content": "node scripts/validate-content.mjs",
     "preview": "astro preview",
     "new:trending": "node src/scripts/fetch-trending.mjs"
   },
